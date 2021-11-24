@@ -1,0 +1,234 @@
+.new-shift {
+  background-color: #a892ee;
+  padding: 1rem;
+  margin: 7rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-shift button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #40005d;
+  background-color: #40005d;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+  margin-left: 0rem;
+}
+
+.new-shift button:hover,
+.new-shift button:active {
+  background-color: #5d0188;
+  border-color: #5d0188;
+}
+
+.shifts-list__fallback {
+  color: white;
+  text-align: left;
+  margin: 7.3rem 0 0 10rem;
+  font-size: 3.2rem;
+  border: 0.2rem solid black;
+  background-color: #40005d;
+  border-radius: 1rem;
+  padding-left: 1.6rem;
+  width: 35vw;
+}
+
+.add-new-shift {
+  /* background-color: #a892ee; */
+  padding: 1rem;
+  margin: 7rem auto 3rem 0.75rem;
+  /* width: 50rem; */
+  /* max-width: 95%; */
+  border-radius: 12px;
+  text-align: left;
+  /* box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25); */
+}
+
+.add-new-shift button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 0.12rem solid black;
+  background-color: #40005d;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+  margin-left: 0rem;
+  font-size: bold;
+}
+
+.add-new-shift button:hover,
+.add-new-shift button:active {
+  background-color: #530179;
+  border: 0.12rem solid black;
+}
+
+/* media query ipad */
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  .add-new-shift button {
+    margin-top: 2rem;
+  }
+  .new-shift {
+    margin-top: 14rem;
+  }
+}
+
+
+
+/*aggiunto da me per provare a settare su mobile phone only OK IN IPHONE 6, 6PLUS,...*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .add-new-shift button {
+    margin-top: -5rem;
+    margin-left: -0.5rem;
+  }
+  .add-new-shift {
+    /* background-color: #a892ee; */
+    padding: 1rem;
+    margin-top: 8rem;
+    margin-bottom: 0.5rem;
+    /* width: 50rem; */
+    /* max-width: 95%; */
+    border-radius: 12px;
+    text-align: left;
+    /* box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25); */
+  }
+  .shifts-list__fallback {
+    color: white;
+    text-align: left;
+    margin: 4.5rem 3.5rem 3.5rem 2.5rem;
+    font-size: 1.5rem;
+    border: 0.2rem solid black;
+    background-color: #40005d;
+    border-radius: 1rem;
+    padding-left: 1.6rem;
+    width: 75vw;
+  }
+  .new-shift {
+    margin-top: 8rem;
+  }
+}
+/* and (-webkit-min-device-pixel-ratio: 2) */
+
+/* iphone6 landscape */
+/* @media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+    .new-shift {
+      margin-top: 9rem;
+    }
+     .add-new-shift-iphone6Landscape {      
+      margin-top: 4rem;     
+    } 
+    .shifts-list__fallback {
+      color: white;
+      text-align: left;
+      margin: -1.3rem 4.5rem 3.5rem 4.5rem;
+      font-size: 1.5rem;
+      border: 0.2rem solid black;
+      background-color: #40005d;
+      border-radius: 1rem;
+      padding-left: 1.6rem;
+      width: 60vw;
+    }
+} */
+
+/* iphone6 Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .new-shift {
+    margin-top: 7.5rem;
+  }
+  .add-new-shift {
+    margin-top: 4rem;
+  }
+  .shifts-list__fallback {
+    color: white;
+    text-align: left;
+    margin: -1.3rem 4.5rem 3.5rem 4.5rem;
+    font-size: 1.5rem;
+    border: 0.2rem solid black;
+    background-color: #40005d;
+    border-radius: 1rem;
+    padding-left: 1.6rem;
+    width: 60vw;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+/* @media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+} */
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .add-new-shift {
+    margin-top: 7.5rem;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .new-shift {
+    margin-top: 7.3rem;
+  }
+  .add-new-shift {
+    margin-top: 4.1rem;
+  }
+  .shifts-list__fallback {
+    color: white;
+    text-align: left;
+    margin: -1.3rem 4.5rem 3.5rem 4.5rem;
+    font-size: 1.5rem;
+    border: 0.2rem solid black;
+    background-color: #40005d;
+    border-radius: 1rem;
+    padding-left: 1.6rem;
+    width: 60vw;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+/* @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+} */
+
+/* Portrait */
+/* @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  
+} */
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .new-shift {
+    margin-top: 7.5rem;
+  }
+  .add-new-shift {
+    margin-top: 4.2rem;
+  }
+  .shifts-list__fallback {
+    color: white;
+    text-align: left;
+    margin: -1.9rem 4.5rem 3.5rem 4.5rem;
+    font-size: 1.5rem;
+    border: 0.2rem solid black;
+    background-color: #40005d;
+    border-radius: 1rem;
+    padding-left: 1.6rem;
+    width: 60vw;
+  }
+}

@@ -1,0 +1,67 @@
+@import url("http://cdn.syncfusion.com/ej2/material.css");
+@import "../../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-lists/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-react-calendars/styles/material.css";
+
+/* e-date-range-wrapper	Applied to DateRangePicker wrapper
+e-range-icon	Applied to the DateRangePicker icon.
+e-popup	Applied to DateRangePicker popup wrapper.
+e-calendar	Applied to both Calendar element.
+e-right-calendar	Applied to right Calendar element.
+e-left-calendar	Applied to left Calendar element.
+e-start-label	Applied to start label in popup.
+e-end-calendar	Applied to end label in a popup.
+e-day-span	Applied to day span details label in a popup.
+e-footer	Applied to footer elements in a popup.
+e-apply	Applied to apply button in footer in a popup.
+e-cancel	Applied to cancel button in footer in a popup.
+e-header	Applied to Calendar header.
+e-title	Applied to Calendar title.
+e-icon-container	Applied to Calendar previous and next icon container.
+e-prev	Applied to Calendar previous icon.
+e-next	Applied to Calendar next icon.
+e-weekend	Applied to Calendar weekend dates.
+e-other-month	Applied to Calendar other month dates.
+e-day	Applied to each day cell of the Calendar.
+e-selected	Applied to Calendar selected dates.
+e-disabled  Applied to Calendar disabled dates. */
+
+.e-date-range-wrapper {
+  margin-left: 2rem;
+  max-width: 17vw;
+}
+
+.customCSS,
+.e-control,
+.e-control,
+.e-daterangepicker,
+.e-lib,
+.e-input,
+.e-keyboard {
+  font-size: 1.1rem !important;
+  color: black !important;
+}
+
+.customCSS,
+.e-range-icon {
+  color: rgb(175, 46, 175) !important;
+}
+
+.customCSS .e-btn.e-flat:disabled {
+  color: rgb(143, 135, 135) !important;
+  background-color: white !important;
+}
+
+
+
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+    .e-date-range-wrapper {
+      margin-top: 0.5rem;
+      margin-left: 1rem;
+      max-width: 60vw;
+    }
+  }

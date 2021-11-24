@@ -1,0 +1,164 @@
+.filters {
+  margin: 1rem 0 3rem 0.8rem;
+  display: flex;
+}
+
+.filter {
+  margin: 0 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.label {
+  margin-right: 0.5rem;
+}
+
+input {
+  font-size: 1.1rem;
+}
+
+.datePicker {
+  max-width: 10.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.datePickerlabel {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.calendars {
+  /* margin: 1rem 0 3rem 0; */
+  margin-left: 0.7rem;
+  display: flex;
+  z-index: 10;
+}
+
+.react-datepicker-wrapper {
+  /* z-index: -10; */
+}
+
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  .filters {
+    display: block;
+    margin-top: -1rem;
+  }
+  .filter {
+    margin: 0.3rem 1rem 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  /* .label {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+   */
+  input {
+    margin-top: 0.3rem;
+  }
+}
+
+/* //iphone 6 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .calendars {
+    /* margin: 1rem 0 3rem 0; */
+    margin-left: 0.7rem;
+    display: inline-block;
+    z-index: 10;
+  }
+}
+
+/* 
+/* iphone6 landscape */
+/* @media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+    .filters {      
+      margin-top: -3rem;
+    }
+    .calendars {
+      margin-right: 450px;
+    }
+} */
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .filters {
+    margin-top: -3rem;
+  }
+  .calendars {
+    margin-right: 450px;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+/* @media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+} */
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  /* .filters {
+    display: block;
+    margin-top: -1rem;
+  } */
+  .filter {
+    font-size: 1rem;
+  }
+  /* .label {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+   */
+  /* input {
+    margin-top: 0.3rem;
+  } */
+  .datePickerlabel {
+    font-size: 1rem;
+  }
+  #iphone6Plus {
+    display: grid;
+  }
+  input {
+    max-width: 55vw;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .filters {
+    margin-top: -3rem;
+  }
+  .calendars {
+    margin-right: 450px;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+/* @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+} */
+
+/* Portrait */
+/* @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+} */
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .filters {
+    margin-top: -3rem;
+  }
+  .calendars {
+    margin-right: 450px;
+  }
+  
+}
+
+

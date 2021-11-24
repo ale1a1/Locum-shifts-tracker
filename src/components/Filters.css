@@ -11,6 +11,7 @@
 
 .label {
   margin-right: 0.5rem;
+  color:aliceblue
 }
 
 input {
@@ -33,6 +34,7 @@ input {
   margin-left: 0.7rem;
   display: flex;
   z-index: 10;
+  color:aliceblue
 }
 
 .react-datepicker-wrapper {

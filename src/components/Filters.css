@@ -47,8 +47,6 @@ input {
   }
   .filter {
     margin: 0.3rem 1rem 0.5rem 1rem;
-    font-size: 0.9rem;
-    font-weight: bold;
   }
   /* .label {
     margin-top: 0.5rem;
@@ -158,7 +156,12 @@ input {
   .calendars {
     margin-right: 450px;
   }
-  
 }
 
-
+/* samsung s10 */
+@media only screen and (min-device-height: 360px) and (min-device-width: 760px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 4) {
+  .filters {
+    background-color: blue;
+    margin-top: -3rem;
+  }
+}

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import ShiftForm from "./ShiftForm";
 import Table from "./Table";

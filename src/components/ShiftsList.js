@@ -81,11 +81,11 @@ const ShiftsList = (props) => {
   //   return endDate;
   // };
 
-  const endDate = props.shifts.length > 0 ? props.shifts[0].date : "Cavoli";
+  const endDate = props.shifts.length > 0 ? props.shifts[0].date : new Date();
   const startDate =
     props.shifts.length > 0
       ? props.shifts[props.shifts.length - 1].date
-      : "Asparagi";
+      : new Date();
 
   const JSX = () => {
     if (isEditing === "ADD BUTTON" && props.shifts.length === 0) {

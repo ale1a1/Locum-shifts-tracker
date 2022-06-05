@@ -144,6 +144,13 @@ const Login = (props) => {
           </button>
         </div>
       </form>
+      <div className={classes.instructions}>
+        <h2>INSTRUCTIONS TO LOGIN</h2>
+        <ul>
+          <li>INSERT ANY EMAIL ADDRESS</li>
+          <li>INSERT a PASSWORD of at least 7 caracters</li>
+        </ul>
+      </div>
     </div>
   );
 };

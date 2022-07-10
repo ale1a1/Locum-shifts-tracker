@@ -148,7 +148,7 @@ const Login = (props) => {
         <h2>INSTRUCTIONS TO LOGIN</h2>
         <ul>
           <li>INSERT ANY EMAIL ADDRESS</li>
-          <li>INSERT a PASSWORD of at least 7 caracters</li>
+          <li>INSERT a PASSWORD of at least 7 characters</li>
         </ul>
       </div>
     </div>
